@@ -46,6 +46,20 @@ pip install -r requirements.txt
 - cleaned text outputs and preprocessing helpers
 - sample exploratory analysis tables and plots
 
+## Dataset
+
+The notebook expects a local CSV file containing the raw hate speech dataset. In the notebook, the file path is stored in `raw_path`.
+
+If you are using a different dataset location, update that variable before running the first data-loading cell.
+
+## Notebook Flow
+
+1. Load the raw text from the CSV file.
+2. Clean and normalize the tweet content.
+3. Build feature summaries such as character and word counts.
+4. Inspect sample rows and preprocessing outputs.
+5. Review the exploratory analysis tables and charts.
+
 ## Notes
 
 - The notebook expects a local CSV file at the path defined in `raw_path`.
